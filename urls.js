@@ -1,4 +1,4 @@
-const key = '';
+const key = 'you_api_key';
 
 export const urls = {
   channelVideos: function (id) {
