@@ -1,4 +1,4 @@
-const key = 'AIzaSyDAUT_-KL9kpJLVn4y-KG4xL8gx5yahF1w';
+const key = '';
 
 export const urls = {
   channelVideos: function (id) {
