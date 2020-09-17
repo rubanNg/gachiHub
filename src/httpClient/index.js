@@ -1,14 +1,12 @@
-export function HttpClient() {}
-
-
-HttpClient.get = function(url, options = {}) {
-
-  const promise = fetch(url, { method: 'GET', ...options }).then(function(response) {
-    return response.json();
-  });
-
-  return new AsyncOperation(promise);
+export default class HttpClient {
+  static get(url, options) {
+    const promise = fetch(url, { method: 'GET', ...options }).then(function(response) {
+      return response.json();
+    });
+    return new AsyncOperation(promise);
+  }
 }
+
 
 class AsyncOperation {
 
