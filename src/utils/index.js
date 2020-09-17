@@ -1,4 +1,4 @@
-const key = 'AIzaSyBYbGOfPbUcj5nKYGfP6CV7iMwugNdvtSk';
+const key = 'api_key';
 
 export const urls = {
 
